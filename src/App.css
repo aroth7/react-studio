@@ -4,6 +4,34 @@
 
 }
 
+.BakeryItemDisplay {
+    display: flex;
+    flex-flow: row wrap;
+}
+
 .BakeryItem {
-  
+    background-color:papayawhip;
+    width: 40vw;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1vw; 
+}
+
+.BakeryImage{
+    width: 25vw;
+    border-radius: 10px;
+
+}
+
+.aside{
+    width: 40%;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px #29627e;
+    font-style: italic;
+    color: #29627e;
 }
